@@ -1,0 +1,162 @@
+.wd-float-done {
+    clear: both;
+    }
+    .wd-float-left {
+        float: left;
+     }
+     
+         
+    .wd-grid-row {
+        clear: both;
+     }
+     
+     .wd-grid-col-half-page {
+        width: 94%;
+        float: left;
+     }
+     .wd-grid-col-quarter-page{
+        width: 5%;
+        float: left;
+        margin-left: 12px;
+     }
+     .wd-grid-col-third-page{
+        width: 7%;
+        float: left;
+     }
+     .wd-hyperlinks{
+        padding: 16px;
+     }
+
+      svg {
+        stroke: #4691f6;
+      }
+      .wd-border-thin {
+        border-width: 4px;
+        padding-left:16px ;
+        padding-top:12px ;
+     }
+     .wd-border-text {
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(47, 51, 54);
+      margin-left: 50px;
+      margin-right: 480px;
+      border-bottom-right-radius: 40px;
+      border-bottom-left-radius: 40px;
+
+     }
+     .wd-bookmarks{
+      padding-left: 16px;
+      padding-top: 12px;
+      font-size: 20px;
+      color: white;
+     }
+     .wd-webdev{
+      padding-left: 16px;
+      padding-top: 0px;
+        font-size: 13px;
+        color: lightgray;
+        padding-bottom: 12px;
+     }
+     .wd-border-solid {
+        border-width: 1px; 
+        border-style: solid;
+        border-color: lightgray;
+    }
+    .wd-avatar{
+      position: absolute;
+      top: 16px;
+        padding-left: 16px;
+        border-radius: 50%;
+        
+    }
+    .wd-topic{
+
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        padding-left: 12px;
+
+     }
+
+     .wd-handle{
+        font-size: 15px;
+        color:lightgray;
+     }
+     .wd-content{
+      font-size: 15px;
+      color: rgb(255, 255, 255);
+      padding-left: 50px;
+      width: 506px;
+     }
+     .wd-tuits-number{
+        font-size: 13px;
+        color: rgb(110, 118, 125);
+     }
+     body{
+        background: rgb(0, 0, 0);
+     }    
+     h3{
+        color: white;
+     }    
+     .wd-border-color{
+      border-color: rgb(47, 51, 54);
+     }    
+     .wd-rounded-corners-top {
+      border-top-left-radius: 40px;
+      border-top-right-radius: 40px;
+      /* padding-left: 50px; */
+   }
+   .wd-main-image{
+      height: 264px;
+      width: 504px;
+   }    
+   
+   .wd-border-image{
+      margin-left: 50px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: rgb(208, 216, 213);
+   }
+
+   .wd-below-image-content{
+      padding-top: 12px;
+      color:white;
+      /* margin-right: 150px; */
+      padding-left: 12px;
+
+   /* .wd-below-image-content{
+      padding-top: 12px;
+      color:white;
+      padding-left: 12px; */
+      
+   }  
+   .wd-below-image-text{
+      color: lightgray;
+   }
+   .wd-icon-comment{
+      color:lightgray;
+      padding-left: 50px;
+   }
+   .wd-icon-retuited{
+      color:lightgray;
+      padding-left: 50px;
+   }
+   .wd-icon-likes{
+      color:red;
+      padding-left: 50px;
+   }
+   .wd-icon-share{
+      color:lightgray;
+      padding-left: 50px;
+   }
+   .wd-icon-count{
+      color:lightgray;
+      padding-left: 12px;
+   }
+   .wd-icon-count-like{
+      color:red;
+      padding-left: 12px;
+   }
+       
+       
+            
