@@ -60,9 +60,6 @@ clear: both;
     background-color: darkgray;
 
  }
-  svg {
-    stroke: #4691f6;
-  }
   .wd-border-thin {
     border-width: 1px; 
     padding-left: 16px;
