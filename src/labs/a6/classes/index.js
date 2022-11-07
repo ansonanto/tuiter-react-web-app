@@ -1,7 +1,6 @@
 import './index.css';
 
 function Classes() {
-    const color = 'blue';
     const dangerous = false;
     return (
       <div>

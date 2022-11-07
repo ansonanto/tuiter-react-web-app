@@ -18,7 +18,7 @@ const HomePostListItem = (
 ) => {
  return(
     <div className="container mb-2">
-        <img src={`/images/${post.userImage}`} className='wd-float-left me-2 bordering' height={40} width={40}/>
+        <img src={`/images/${post.userImage}`} className='wd-float-left me-2 bordering' height={40} width={40} alt=""/>
        
             <div className="row">
                 <span className=""><b>{post.name}&nbsp;</b> <span className="wd-handle text-secondary"> {post.userName} <span>&#8226;</span> {post.time}</span></span>
@@ -40,7 +40,7 @@ const HomePostListItem = (
                     <i className='bi bi-repeat' style={{color: 'grey'}}> {post.retweet}</i>
                     <i className='bi bi-suit-heart' style={{color: 'grey'}}> {post.likes}</i>
                     <i className='bi bi-upload' style={{color: 'grey'}}></i>
-                 </p>
+                </p>
             </div>
  
     </div>
