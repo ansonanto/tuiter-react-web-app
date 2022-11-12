@@ -7,7 +7,7 @@ const ProfileComponent = () => {
     const profile = useSelector(state => state.profile);
     return(
         <div className="row mt-2">
-            <div className="col-12 border rounded px-0 py-3">
+            <div className="col-12 col-lg-12 col-xl-12 border rounded px-0 py-3">
                 <div className="row px-3">
                     <div className="col-1">
                         <i className="bi bi-arrow-left"></i>

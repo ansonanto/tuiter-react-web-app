@@ -1,5 +1,6 @@
 import React from "react";
-import {deleteTuit} from "../tuits/tuits-reducer";
+
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 import TuitsStats from "./TuitStats";
 import {useDispatch} from "react-redux";
 const TuitItem = (
@@ -15,6 +16,7 @@ const TuitItem = (
         "replies": 123,
         "retuits": 432,
         "likes": 2345,
+        "dislikes": 212,
         "handle": "@spacex",
         "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
     }
@@ -22,7 +24,7 @@ const TuitItem = (
 ) => {
 const dispatch = useDispatch();
 const deleteTuitHandler = (id) => {
-  dispatch(deleteTuit(id));
+    dispatch(deleteTuitThunk(id));
 }
 
  return(
@@ -43,7 +45,7 @@ const deleteTuitHandler = (id) => {
                     <br/>
                 </span>
 
-               <TuitsStats post={post}/>
+               <TuitsStats tuit={post}/>
             </div>
  
     </div>
