@@ -53,9 +53,7 @@ const tuitsSlice = createSlice({
       (state, { payload }) => {
         state.loading = false
         state.tuits.unshift(payload)
-        setTimeout(function(){
-          window.location.reload();
-        });
+        
         
     },
     [updateTuitThunk.fulfilled]:
