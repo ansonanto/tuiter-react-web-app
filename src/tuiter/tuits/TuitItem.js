@@ -33,11 +33,6 @@ const deleteTuitHandler = (id) => {
         <i className="bi bi-x-lg float-end" onClick={() => deleteTuitHandler(post._id)}></i>
             <div className="row">
                 <span className=""><b>{post.userName}&nbsp;</b> <span className="wd-handle text-secondary"> {post.handle} <span>&#8226;</span> {post.time}</span></span>
-                {/* <span>{post.title}</span>
-                <div className="position-relative">
-                    <img src={`/images/${post.image}`}
-                        className="card-img-top mt-2" alt=""/>   
-                </div> */}
                 <span className={'border border-light rounded-bottom mb-3'}>
                     <span className="card-text text-secondary">
                         {post.tuit}
